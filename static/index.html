@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <h1>My Tasks</h1>
+  <textarea id="tasks-list" rows="10" cols="50"></textarea>
+  <script>
+      fetch('/tasks')
+      .then((response) => response.json())
+      .then((data) => document.getElementById("tasks-list").innerHTML = JSON.stringify(data,null,2));
+  </script>
+  </body>
+</html>
