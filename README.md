@@ -1,2 +1,2 @@
-# tada
-A simple To Do App
+# tada 
+A simple To Do App Based on Flask 
