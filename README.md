@@ -1,1 +1,2 @@
-tada A simple To Do App Based on Flask 
+#tada 
+A simple To Do App Based on Flask 
